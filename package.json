@@ -1,0 +1,30 @@
+{
+	"name": "isomorphic-boilerplate",
+	"version": "0.1.0",
+	"main": "index.js",
+	"author": "Guilherme Farias",
+	"license": "MIT",
+	"description": "Just a simple isomorphic web application.",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"superagent": "~0.15.7",
+		"express": "~3.4.3",
+		"director": "~1.2.0",
+		"handlebars": "~1.0.12",
+		"hbsfy": "~1.0.0",
+		"underscore": "~1.5.2",
+		"http-proxy": "~0.10.3",
+		"jquery-browserify": "~1.8.1"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"browserify": "~2.35.0",
+		"grunt-browserify": "~1.2.9",
+		"grunt-contrib-watch": "~0.5.3",
+		"grunt-nodemon": "~0.1.1",
+		"grunt-concurrent": "~0.4.1",
+		"grunt-node-inspector": "~0.1.1"
+	}
+}
