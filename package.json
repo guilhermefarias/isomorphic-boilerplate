@@ -8,6 +8,13 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/guilhermefarias/isomorphic-boilerplate.git"
+	},
+	"bugs": {
+		"url": "https://github.com/guilhermefarias/isomorphic-boilerplate/issues"
+	},
 	"dependencies": {
 		"superagent": "~0.15.7",
 		"express": "~3.4.3",

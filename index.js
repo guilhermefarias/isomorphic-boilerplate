@@ -14,3 +14,5 @@ app.use(router.middleware());
 app.use('/api', api.proxyMiddleware(apiPort));
 app.listen(port);
 api.listen(apiPort);
+
+console.log('App running on port %s; API on port %s', port, apiPort);

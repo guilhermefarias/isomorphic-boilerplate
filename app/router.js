@@ -21,7 +21,7 @@ require('./helpers')(Handlebars).register();
 
 module.exports = Router;
 
-function Router(){
+function Router(routesFn){
 	if (routesFn == null){
 		throw new Error('Must provide routes.');	
 	}
